@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iem</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> -->
+</head>
+<body>
+     <section class="header">
+         <nav>
+             <a href="index.html"><img src="img/logo.png"></a>
+             <div class="nav-links" id="navLink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                 <ul>
+                     <li> <a href="index.html" >Home</a></li>
+                     <li><a href="about.html" >About</a></li>
+                     <li><a href="course.html">Course</a></li>
+                     <li><a href="blog.html">Blog</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                 </ul>
+             </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+         </nav>
+         <div class="text-box">
+             <h1>Institute of Engineering and Management</h1>
+             <p>Fulfill your dreams</p>
+             <a href="blog.html" class="hero-btn">Visit us to know more</a>
+         </div>
+     </section>
+     <section class="course">
+           <h1>Courses we offer</h1>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+           <div class="row">
+               <div class="course-col">
+                   <h1>intermediate</h1>
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                       my name is sachin raj i love my country
+                   </p>
+               </div>
+               <div class="course-col">
+                <h1>graduation</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    my name is sachin raj i love my country
+                </p>
+            </div>
+            <div class="course-col">
+                <h1>post-graduation</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    my name is sachin raj i love my country
+                </p>
+            </div>
+           </div>
+     </section>
+     <section class="campus">
+         <h1>Our campus</h1>
+         <div class="row">
+             <div class="campus-col">
+                    <img src="img/london.png">
+                    <div class="layer">
+                        <h3>London</h3>
+                    </div>
+             </div>
+             <div class="campus-col">
+                <img src="img/newyork.png">
+                <div class="layer">
+                    <h3>Newyork</h3>
+                </div>
+              </div>
+              <div class="campus-col">
+                <img src="img/washington.png">
+                <div class="layer">
+                    <h3>washington</h3>
+                </div>
+               </div>
+         </div>
+     </section>
+        <!--toggle menubar!--> 
+        <section class="testimonial">
+
+            <div class="row">
+                <div class="testimonial-col">
+                     <img src="img/user1.jpg">
+                     <div>
+                         <p>Lorem ipsum dolor sit amet consent
+                             hsdbxjnjkjxmdkx
+                             jnxexmemxjkdxkkddjjkdjkw
+                         </p>
+                         <h3>Natasha malkova</h3>
+                     </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="img/user2.jpg">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consent
+                            hsdbxjnjkjxmdkx
+                            jnxexmemxjkdxkkddjjkdjkw
+                        </p>
+                        <h3>christian bale</h3>
+                    </div>
+               </div>
+            </div>
+        </section>
+      <section class="cta">
+          <h1>Enroll for our various online courses<br>
+            anywhere from the world</h1>
+            <a href="contact.html" class="hero-btn"> Contact Us</a>
+      </section>
+      <section class="footer">
+          <p>© Www.iem.in</p>
+      </section>
+
+
+
+     <script>
+         var navLink=document.getElementById("navLink")
+        function hidemenu(){
+             navLink.style.right="-200px";
+         }
+         function showmenu(){
+             navLink.style.right="0"
+         }
+      
+     </script>
+</body>
+</html>

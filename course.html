@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h1>intermediate</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    my name is sachin raj i love my country
+                </p>
+            </div>
+            <div class="course-col">
+                <h1>graduation</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    my name is sachin raj i love my country
+                </p>
+            </div>
+            <div class="course-col">
+                <h1>post-graduation</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    my name is sachin raj i love my country
+                </p>
+            </div>
+        </div>
+    </section>
+   
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>we provide all the essential facilities to our students</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.png">
+                <div class="layer">
+                    <h3>
+                        Library
+                    </h3>
+                </div>
+            </div>
+            <div class="facilities-col">
+                <img src="img/basketball.png">
+                <div class="layer">
+                    <h3>
+                        basketball
+
+                    </h3>
+                </div>
+            </div>
+            <div class="facilities-col">
+                <img src="img/cafeteria.png">
+                <div class="layer">
+                    <h3>
+                        cafeteria
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>© Www.iem.in</p>
+    </section>
+
+    <script>
+        var navLink = document.getElementById("navLink")
+        function hidemenu() {
+            navLink.style.right = "-200px";
+        }
+        function showmenu() {
+            navLink.style.right = "0"
+        }
+
+    </script>
+</body>
